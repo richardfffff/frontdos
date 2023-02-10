@@ -13,6 +13,7 @@ import { FooterComponent } from './components/footer/footer.component';
 import { HSComponent } from './components/h-s/h-s.component';
 import { ProyectosComponent } from './components/proyectos/proyectos.component';
 import { SocialRedesComponent } from './components/social-redes/social-redes.component';
+import { NgCircleProgressModule } from 'ng-circle-progress';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { SocialRedesComponent } from './components/social-redes/social-redes.com
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgCircleProgressModule.forRoot({})
   ],
   providers: [],
   bootstrap: [AppComponent]
