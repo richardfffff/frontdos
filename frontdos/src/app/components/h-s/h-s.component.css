@@ -1,18 +1,22 @@
-div{
-  background:linear-gradient(to left ,rgb(0, 0, 10)  ,rgb(32, 83, 158));
- }
+
  .row{
   padding-left: 30px;
   padding-right: 30px;
+  background:linear-gradient(to left ,rgb(0, 0, 10)  ,rgb(32, 83, 158));
  }
-
- #circulo{
+ .table{
  width: 30%;
- }
- .btn-info{
+}
+.btn-info{
   border-radius: 100%;
+  color: white;
  }
- .btn-info, btn-danger{
+ .btn-info, .btn-danger{
+  margin-top: 70%;
+  margin-left: -30%;
+  align-items: center;
+  display: flex;
+  justify-content:space-between;
   border-width: medium;
  }
 
@@ -34,9 +38,7 @@ div{
    text-align: center;
    font-style: italic;
    }
-   td{
-    color: white;
-   }
+
  hr{
     margin: 30px 0;
     border: 2px solid #bfe2ff;

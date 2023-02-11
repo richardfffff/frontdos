@@ -21,9 +21,10 @@ h1{
 
      .btn-info{
        border-radius: 100%;
+       color: white;
      }
 
-     .btn-info, btn-danger{
+     .btn-info, .btn-danger{
       border-width: medium;
      }
 
