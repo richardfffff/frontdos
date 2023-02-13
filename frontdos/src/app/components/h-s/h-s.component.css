@@ -5,31 +5,23 @@
   background:linear-gradient(to left ,rgb(0, 0, 10)  ,rgb(32, 83, 158));
  }
  .table{
- width: 30%;
+ width: 33%;
+ margin-top: -5%;
 }
-.btn-info{
-  border-radius: 100%;
-  color: white;
- }
- .btn-info, .btn-danger{
-  margin-top: 70%;
-  margin-left: -30%;
-  align-items: center;
-  display: flex;
-  justify-content:space-between;
-  border-width: medium;
- }
-
- .btn-primary{
+.btn-primary{
   width: 100%;
  margin-top: 2%;
  margin-bottom: 5%;
  }
 
-#prueva{
-  width: 1200px-lg, 3600-lg, 360-sx;
+ .btn-info, .btn-danger{
+  border-width: medium;
+ }
+ .btn-info{
+  border-radius: 100%;
+  color: white;
+ }
 
-}
  h1{
     color: white;
     padding: 20px;
