@@ -8,16 +8,21 @@
          <h4>Agregar nueva experiencia laboral</h4>
       </button>
 
+      <td class="col-4">
+        <h6><u>EMPRESA</u></h6>
+      </td>
+      <td class="col-6">
+        <h6><u>TAREA DESEMPEñADA</u></h6>
+        </td>
 
 
-  <div class="col-12">
       <table class="table">
           <tbody>
               <tr *ngFor="let Experiencia of expe">
                   <td class="col-4">
-                     <h6>EMPRESA</h6><h3>-{{Experiencia.nombreE}}</h3>
+                     <h3>-{{Experiencia.nombreE}}-</h3>
                   </td>
-                  <td class="col-6"><h6>TAREA DESEMPEñADA</h6><h5>({{Experiencia.descripcionE}})</h5></td>
+                  <td class="col-6"><h5>({{Experiencia.descripcionE}})</h5></td>
                   <td *ngIf="isLogged" class="col-1">
                       <button class="btn btn-info" routerLink="/editexp/{{Experiencia.id}}">
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-magic" viewBox="0 0 16 16">
@@ -35,5 +40,5 @@
       </table>
   </div>
 
-</div>
+
 
