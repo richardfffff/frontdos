@@ -1,3 +1,4 @@
+import { EditAcercaDComponent } from './components/acerca-dmi/edit-acerca-d/edit-acerca-d.component';
 import { EditskillComponent } from './components/h-s/editskill/editskill.component';
 import { NewskillComponent } from './components/h-s/newskill/newskill.component';
 import { EditproyectoComponent } from './components/proyectos/editproyecto/editproyecto.component';
@@ -21,7 +22,8 @@ const routes: Routes = [
   {path:'nuevoproy', component: NewproyectoComponent},
   {path:'editproy/:id', component: EditproyectoComponent},
   {path:'nuevaha', component: NewskillComponent},
-  {path:'editha/:id', component: EditskillComponent}
+  {path:'editha/:id', component: EditskillComponent},
+  {path:'editacercade/:id', component: EditAcercaDComponent}
 ];
 
 @NgModule({

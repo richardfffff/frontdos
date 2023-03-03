@@ -26,6 +26,7 @@ import { NewproyectoComponent } from './components/proyectos/newproyecto/newproy
 import { EditproyectoComponent } from './components/proyectos/editproyecto/editproyecto.component';
 import { NewskillComponent } from './components/h-s/newskill/newskill.component';
 import { EditskillComponent } from './components/h-s/editskill/editskill.component';
+import { EditAcercaDComponent } from './components/acerca-dmi/edit-acerca-d/edit-acerca-d.component';
 
 @NgModule({
   declarations: [
@@ -49,7 +50,8 @@ import { EditskillComponent } from './components/h-s/editskill/editskill.compone
     NewproyectoComponent,
     EditproyectoComponent,
     NewskillComponent,
-    EditskillComponent
+    EditskillComponent,
+    EditAcercaDComponent
   ],
   imports: [
     BrowserModule,
