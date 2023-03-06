@@ -7,7 +7,7 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class ProyectoService {
-  URL = 'backtres-production.up.railway.app/proyecto/';
+  URL = 'https://backtres-production.up.railway.app/proyecto/';
 constructor(private httpClient : HttpClient) { }
 
 public lista(): Observable<Proyecto[]>{

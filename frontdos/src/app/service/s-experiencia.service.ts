@@ -8,7 +8,7 @@ import { Observable } from 'rxjs';
 })
 export class SExperienciaService {
 
-  expURL = 'backtres-production.up.railway.app/explab/'
+  expURL = 'https://backtres-production.up.railway.app/explab/'
 
   constructor(private httpClient: HttpClient) { }
 

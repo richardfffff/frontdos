@@ -8,7 +8,7 @@ import { Educacion } from '../model/educacion';
 })
 export class EducacionService {
 
-  URL = 'backtres-production.up.railway.app/educacion/';
+  URL = 'https://backtres-production.up.railway.app/educacion/';
 
   constructor(private httpClient : HttpClient) { }
 

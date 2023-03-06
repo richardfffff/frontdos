@@ -8,7 +8,7 @@ import { Observable } from 'rxjs';
 })
 export class SkillService {
 
-  URL = 'backtres-production.up.railway.app/skill/';
+  URL = 'https://backtres-production.up.railway.app/skill/';
 
   constructor(private httpClient : HttpClient) { }
 
