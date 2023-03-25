@@ -20,16 +20,20 @@ img {
 h1 {
    padding: 20px;
    padding-top: 5px;
+   font-family: optima, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
    }
    h2{
     padding: 10px;
     padding-top: 4em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, Helvetica, sans-serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
    }
-h4{
-  padding: 15px;
-  }
+   h4{
+    font-family: 'Times New Roman', Times, serif;
+   }
+
   h5{
-    padding-top: 2em;
+    padding-top: 1em;
+    font-family: cursive;
   }
 div{
     text-align: center;

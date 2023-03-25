@@ -4,34 +4,52 @@
   padding-right: 30px;
   background:linear-gradient(to left ,rgb(0, 0, 10)  ,rgb(32, 83, 158));
  }
- .table{
- width: 33%;
- margin-top: -5%;
+ .circulo{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+
 }
+
 .btn-primary{
   width: 100%;
  margin-top: 2%;
  margin-bottom: 5%;
  }
-
- .btn-info, .btn-danger{
+ .btn-outline-info, .btn-outline-danger{
   border-width: medium;
- }
- .btn-info{
-  border-radius: 100%;
   color: white;
+  padding: 20% 3%;
+  margin: -20px;
  }
+ .btn-outline-info{
+  border-radius: 100%;
+  padding: 100% ;
+
+ }
+
+ .botones{
+  display: flex;
+justify-content: space-between;
+ margin-bottom: 20%;
+ }
+
 
  h1{
     color: white;
     padding: 20px;
     padding-top: 5px;
     text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
    }
  h5,h4,h6{
    color: white;
    text-align: center;
    font-style: italic;
+   }
+   h5{
+    font-family: cursive;
    }
 
  hr{
