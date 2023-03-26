@@ -8,6 +8,7 @@ import { Observable } from 'rxjs';
 })
 export class ProyectoService {
   URL = 'http://localhost:8080/proyecto/';
+  // URL = 'https://backtres-production.up.railway.app/proyecto/';
 constructor(private httpClient : HttpClient) { }
 
 public lista(): Observable<Proyecto[]>{
