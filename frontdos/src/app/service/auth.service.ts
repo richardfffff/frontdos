@@ -12,6 +12,7 @@ export class AuthService {
 
   //authURL = 'http://localhost:8080/auth/';
     authURL = 'https://backtres-production.up.railway.app/auth/';
+  
   constructor(private httpClient: HttpClient) { }
 
   public nuevo(nuevoUsuario: NuevoUsuario): Observable<any>{

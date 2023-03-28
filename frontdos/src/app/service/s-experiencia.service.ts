@@ -10,6 +10,7 @@ export class SExperienciaService {
 
   //expURL = 'http://localhost:8080/explab/'
     expURL = 'https://backtres-production.up.railway.app/explab/';
+    
 
   constructor(private httpClient: HttpClient) { }
 

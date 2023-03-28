@@ -11,6 +11,7 @@ export class EducacionService {
   //URL = 'http://localhost:8080/educacion/';
     URL = 'https://backtres-production.up.railway.app/educacion/';
 
+
   constructor(private httpClient : HttpClient) { }
 
   public lista(): Observable<Educacion[]>{

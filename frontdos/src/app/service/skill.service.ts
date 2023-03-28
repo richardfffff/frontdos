@@ -10,6 +10,7 @@ export class SkillService {
 
   //URL = 'http://localhost:8080/skill/';
     URL = 'https://backtres-production.up.railway.app/skill/';
+  //URL = 'https://backtres.onrender.com/skill/';
 
   constructor(private httpClient : HttpClient) { }
 
